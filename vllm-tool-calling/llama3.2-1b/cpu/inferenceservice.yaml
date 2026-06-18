@@ -35,9 +35,9 @@ spec:
       resources:
         limits:
           cpu: '8'
-          memory: 48Gi
+          memory: 16Gi
         requests:
-          cpu: '4'
-          memory: 44Gi
+          cpu: '8'
+          memory: 16Gi
       runtime: llama32-1b-cpu
       storageUri: 'oci://quay.io/redhat-ai-services/modelcar-catalog:llama-3.2-1b-instruct'
