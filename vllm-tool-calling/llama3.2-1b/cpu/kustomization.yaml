@@ -3,5 +3,6 @@ kind: Kustomization
 
 resources:
   - oci-data-connection.yaml
+  - chat-template-configmap.yaml
   - servingruntime.yaml
   - inferenceservice.yaml
