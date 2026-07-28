@@ -62,6 +62,7 @@ NOTE: To find more patterns and pre-built ModelCar images, take a look at the [R
 #### Optional, depending on selected hardware platform
 - 1 GPU (NVIDIA L40, A10, or similar)
 - 1 Intel® Gaudi® AI Accelerator
+- For optimal performance on Xeon CPUs, refer to the Intel AI Performance Advisor for [cloud instances](https://xeonprocessoradvisor.intel.com/csp-ai-performance-advisor) and [on-prem servers](https://xeonprocessoradvisor.intel.com/on-prem-ai-performance-advisor) for a sizing guide, as well as [vLLM Recipes](https://recipes.vllm.ai/) for the model recipes.
 
 ### Required software  
 - Red Hat OpenShift 
