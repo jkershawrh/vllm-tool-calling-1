@@ -55,7 +55,7 @@ NOTE: To find more patterns and pre-built ModelCar images, take a look at the [R
 
 ### Minimum hardware requirements
 
-- 8+ vCPUs with 4th Gen Intel® Xeon® Scalable processors or newer
+- 8+ vCPUs
 - 24+ GiB RAM
 - Storage: 30Gi minimum in PVC (larger models may require more)
 
