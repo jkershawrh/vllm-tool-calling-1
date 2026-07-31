@@ -36,7 +36,10 @@ spec:
       env:
         - name: HF_HOME
           value: "/tmp/hf_home"
-      image: 'opea/vllm-cpu-ubi:v0.12.0-ubi9'
+        # jemalloc memory allocator not supported on this image, using libomp instead
+        - name: LD_PRELOAD
+          value: "/usr/lib64/libomp.so"
+      image: 'registry.redhat.io/rhaii/vllm-cpu-rhel9:3.4.0'
       name: kserve-container
       ports:
         - containerPort: 8080
